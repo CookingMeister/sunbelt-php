@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunbelt Software</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=".././public/css/style.css">
 </head>
 <body>
-    <header class="px-2">
+    <header class="">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.php">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand d-flex" href="index.php">
                 <img src="./images/sun.png" alt="sun logo" width="60" height="30">
-                Sunbelt Computer Software</a>
+                <p style="color: red;">Sunbelt Computer Software</p></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
