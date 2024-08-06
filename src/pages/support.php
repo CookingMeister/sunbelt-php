@@ -1,8 +1,34 @@
-<div class="container text-center">
-    <h1>Support</h1>
-    <p>Access our customer support resources and documentation.</p>
+<?php
+require_once '../components/jumbotron.php';
 
-    <ul style="list-style: none; margin: 0;" class="mt-5 p-0">
-        <li><a href="#" style="color: black; text-decoration: none;">Manuals</a></li>
-    </ul>
+echo createJumbotron("Support", "Access our customer support resources and documentation.");
+?>
+
+<div class="container my-5">
+    <div class="d-flex justify-content-center">
+        <img src="../public/img/scslarge.png" alt="logo" class="bg-light shadow" style="max-width: 200px; border-radius: 12px; margin: -8rem 0 2rem !important;">
+    </div>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h2 class="mb-4 text-center">Support Resources</h2>
+            <ul class="list-group support-list">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Documentation
+                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    FAQs
+                    <a href="#" class="btn btn-primary btn-sm">View</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Knowledge Base
+                    <a href="#" class="btn btn-primary btn-sm">Explore</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Community Forums
+                    <a href="#" class="btn btn-primary btn-sm">Join</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
