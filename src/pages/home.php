@@ -40,7 +40,7 @@ echo createJumbotron("We are Sunbelt Computer Software", "We make nice things");
 </div>
 <div class="jumbotron jumbotron-fluid bg-primary text-white rounded" style="width:85%; margin: 0 auto;">
     <div class="container-fluid py-5 text-center">
-        <img src="../public/img/engineer-server.jpg" alt="server" style="max-width: 150px; border-radius: 12px; opacity: 0.66;">
+        <img src="img/engineer-server.jpg" alt="server" style="max-width: 150px; border-radius: 12px; opacity: 0.66;">
         <h1 class="display-4 mt-5">A Shiny Thing</h1>
         <p class="lead orange mb-1 px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error saepe nisi voluptas ipsam pariatur eius animi perspiciatis deserunt, aperiam nulla nam officiis deleniti eaque ex rem a expedita rerum odit.</p>
     </div>
