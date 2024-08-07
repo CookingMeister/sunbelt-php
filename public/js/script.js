@@ -10,23 +10,20 @@ $(document).ready(function () {
   });
 
   function loadPage(page) {
-    $.ajax({
-      url: "../src/pages/" + page + ".php",
-      method: "GET",
-      success: function (response) {
-        $("#main-content").html(response);
-
+    axios
+      .get("../src/pages/" + page + ".php")
+      .then(function (response) {
+        $("#main-content").html(response.data);
         // Set the title based on the page name
         let pageTitle = page.charAt(0).toUpperCase() + page.slice(1);
         document.title = pageTitle + " - Sunbelt Computer Software";
         if (page === "services" && isDark) {
           applyServiceImages();
         }
-      },
-      error: function () {
-        $("#main-content").html("<p>Error loading content.</p>");
-      },
-    });
+      })
+      .catch(function (error) {
+        $("#main-content").html("<p>Error loading content.</p>", error);
+      });
   }
 
   // Initialize dark mode
@@ -44,15 +41,15 @@ $(document).ready(function () {
     applyDarkMode();
   });
 
-  function applyDarkMode() {
+  const applyDarkMode = () => {
     isDark = !isDark; // Toggle the dark mode state
     localStorage.setItem("isDark", isDark);
     $("body").toggleClass("dark-mode", isDark);
     applyServiceImages();
-  }
+  };
 
   // Apply styling to images on services page
-    function applyServiceImages() {
+  const applyServiceImages = () => {
     let serviceImages = $(".service-image");
     let isMixClass = $(".service-image").hasClass("mix");
     serviceImages.each(function () {
@@ -62,5 +59,5 @@ $(document).ready(function () {
         $(this).addClass("mix");
       }
     });
-  }
+  };
 });
