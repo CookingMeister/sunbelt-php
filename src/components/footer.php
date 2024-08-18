@@ -16,7 +16,7 @@
             </div>
         </div>
         <hr>
-        <p class="text-center mb-0 orange">&copy; 2024 Sunbelt Computer Software. All rights reserved.</p>
+        <p class="text-center mb-0 orange">&copy; 2024 Sunny Computer Software. All rights reserved.</p>
     </div>
 </footer>
 

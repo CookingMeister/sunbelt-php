@@ -1,7 +1,7 @@
 <?php
 require_once '../components/jumbotron.php';
 
-echo createJumbotron("We are Sunbelt Computer Software", "We make nice things");
+echo createJumbotron("We are Sunny Computer Software", "We make nice things");
 ?>
 
 <div class="container d-flex justify-content-center align-items-center home-container" style="min-height: 100vh;">

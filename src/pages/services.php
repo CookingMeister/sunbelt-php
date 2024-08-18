@@ -50,7 +50,7 @@ echo createJumbotron("Our Services", "Explore the comprehensive services we offe
 <div class="jumbotron jumbotron-fluid bg-primary text-white" style="width:75%; margin: 0 auto; border-radius: 12px;">
     <div class="container-fluid py-5 text-center">
         <img src="img/engineer-server.jpg" alt="server" style="max-width: 150px; border-radius: 12px; opacity: 0.66;">
-        <h1 class="display-4 mt-5">Sunbelt Data Manager</h1>
+        <h1 class="display-4 mt-5">Sunny Data Manager</h1>
         <p class="lead orange mb-1 px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error saepe nisi voluptas ipsam pariatur eius animi perspiciatis deserunt, aperiam nulla nam officiis deleniti eaque ex rem a expedita rerum odit.</p>
     </div>
 </div>
